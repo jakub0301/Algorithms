@@ -24,7 +24,7 @@ bool comperator(const punkt& a, const punkt& b){
         }
     }
     
-    else if(a.y >= 0 && b.y  >= 0 || a.y < 0 && b.y < 0){
+    else if((a.y >= 0 && b.y  >= 0) || (a.y < 0 && b.y < 0)){
         return Det(a,b) < 0;
     }
     else{
