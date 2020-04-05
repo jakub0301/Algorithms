@@ -28,7 +28,6 @@ bool comperator(const punkt& a, const punkt& b){
         return Det(a,b) < 0;
     }
     else{
-        //czy dziala
         return a.y > b.y;
     }
     
